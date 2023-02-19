@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EDD3D3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Ký"
+        android:textColor="#875353"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tên Đăng Nhập"
+        android:textSize="25dp"
+        android:textColorHint="@color/purple_700"
+        android:background="@drawable/edtbg"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Mật Khẩu"
+        android:textSize="25dp"
+        android:textColorHint="@color/purple_700"
+        android:background="@drawable/edtbg"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp" />
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập Lại Mật Khẩu"
+        android:textSize="25dp"
+        android:textColorHint="@color/purple_700"
+        android:background="@drawable/edtbg"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btndangky"
+        android:text="Đăng Ký"
+        android:textSize="20dp"
+        android:backgroundTint="#DDAD65"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btndangnhap"
+        android:text="Đã Có Tài Khoản"
+        android:textSize="20dp"
+        android:textColor="#664BA5"
+        android:backgroundTint="#919F80"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>
